@@ -4,7 +4,7 @@
     --primary-color: #F7931D;
     --secondary-color: #FFEA82;
     --accent1-color: #DBC977;
-    --accent2-color: #E2DDB2;
+    --accent2-color: #e2ddb2;
     --accent3-color: #58564A;
   
     --heading-font: 'Roboto Serif', serif;
@@ -27,7 +27,7 @@
       }
 
       body {
-        max-width: 960px;
+        width: 100%;
         padding: 20px;
       }
     
@@ -61,36 +61,53 @@
         padding: 25px;
       }
 
-
   /* Class Selectors */
-
-    .div {
-        margin: 10px auto;
-	    position: relative;
-    }
-
-    .div img {
-        position: absolute;
-        
-    }
-
-    .div h1 {
-        position: absolute;
-    }
     
-    .div article {
+    .hero img {
+        position: relative;
+        width: 100%;
+        height: auto;
+           
+    }
+
+    .hero h1 {
         position: absolute;
+        top: 350px;
+        width: 100%;
+        margin: 0 auto;
+        background-color: rgba(32, 243, 251, 0.507);
+    }
+
+    
+    .hero article p{
+        position:absolute;
+        top: 400px;
+        left: 11px;
         margin: 1rem;
-        border: 1px solid rgba(0,0,0,.1);
+        border: 1px solid rgba(247, 230, 163, 0);
         padding: 1rem;
-        background-color: #eee;
-        color: #000;
+        background-color: rgba(32, 244, 251, 0.452);
+        color: #fefcd4f5;
+        width: 100%;
     }
 
-    .div article img {
+    .hero article img {
         float: right;
+        margin: 10px;
+        border: 1px solid #000;
+        padding: 1px;
+        background-color: #bbb;
+        width: 200px;
+        height: auto;
     }
-    
+
+    .history p {
+        margin: 1rem;
+        border: 1px solid rgba(247, 230, 163, 0);
+        padding: 1rem;
+        color: #000;
+        width: 100%;
+    }
 
     
     
