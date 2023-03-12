@@ -79,7 +79,7 @@
     }
 
     
-    .hero article p{
+    .hero article {
         position:absolute;
         top: 400px;
         left: 11px;
