@@ -82,13 +82,13 @@
     .hero article {
         position:absolute;
         top: 400px;
-        left: 11px;
+        left: 100px;
+        right: 100px;
         margin: 1rem;
         border: 1px solid rgba(247, 230, 163, 0);
         padding: 1rem;
         background-color: rgba(32, 244, 251, 0.452);
         color: #fefcd4f5;
-        width: 100%;
     }
 
     .hero article img {
