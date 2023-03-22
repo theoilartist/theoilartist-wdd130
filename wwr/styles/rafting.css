@@ -74,14 +74,14 @@
       nav.sociallinks {
         display: flex;
         justify-content: right;
-        align-items: right;
+        align-items: stretch;
       }
 
       section.history {
         grid-column: 1/4;
         display: flex;
         justify-content: right;
-        align-items: right;
+        align-items: stretch;
 
       }
 
@@ -167,7 +167,7 @@
       position: absolute;
       left: 100px;
       right: 100px;
-      top: 1110;
+      top: 1100px;
       margin: 1rem;
       text-align: center;
     }
