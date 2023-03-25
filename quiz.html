@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WDD 130 | HTML Form - User Poll</title>
+  <link rel="stylesheet" href="styles/quiz.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@1,8..144,300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<header>
+  <h1>WDD 130 | Duncan Oelschig | Basic HTML and CSS Quiz</h1>
+</header>
+<main>
+    <form>
+      <fieldset>
+          <div class="form-item">
+              <label for="q1">1. What does the acronym CSS stand for?</label>
+              <input type="text" id="q1" name="q1">
+          </div>
+      </fieldset>
+      <fieldset>
+        <div class="form-item">
+            <label for="q2">2. How are id and class attributes selected in CSS?</label>
+            <textarea id="q2" name="q2" rows="4" placeholder=""></textarea> 
+        </div>
+      </fieldset>  
+      <fieldset>
+          <div class="form-item"></div>
+              <label for="q3">3. Which of the following is a valid CCS comment?</label>
+              <select id="q3" name="q3">
+              
+                <option value="" selected disabled>Choose One ...</option>   
+                <option value="option1">/* This is a single-line comment */</option>
+                <option value="option2">\* This is a single-line comment *\</option>
+                <option value="option3">/? This is a single-line comment ?/</option>
+                </select>
+      </fieldset>
+      <fieldset>
+        <div class="form-item">
+              <label for="q4">4. Which number is the top margin?</label>
+              <fieldset>
+              <label for="q4">margin: 25px 50px 75px</label>
+              </fieldset>
+              <input type="number" id="q4" name="q4">
+          </div>
+             
+      </fieldset>
+        <button type="submit">Submit quiz</button>
+    </form>
+  </main>
+  <footer>
+  <p>©2023 | HTML Form - User Quiz | Duncan Oelschig</p>
+</footer>
+</body>
+</html>
