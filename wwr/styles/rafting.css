@@ -197,7 +197,7 @@
       position: absolute;
       left: 400px;
       right: 400px;
-      top: 500px;
+      top: 400px;
       margin: 0 auto;
       padding: 2rem;
       border: 1px solid rgba(0, 0, 0, 0.1);
@@ -232,8 +232,22 @@
       padding-right: 50px;
       display: flex;
       justify-content: flex-start;
-      
+    }
 
+    .column {
+      flex: 33.33%;
+      height: 450px;
+      padding: 10px;
+      margin: 5px;
+      background-color: #fff5d4;
+      text-align: center;
+    }
+    .container {
+       display: flex;
+    }	
+
+    .column img {
+      opacity: 1;
     }
 
   
